@@ -1,5 +1,5 @@
 # aws-encryption-tracker
-Tracker for Encryption by Default for AWS Resources
+Tracker for Encryption by Default (At Rest) for AWS Resources
 
 | AWS Resource  | AWS Service | Encrypted by Default (API/CLI) | Default Encryption Type | 
 | ------------- | ----------- | ------------- | ------------------ |
@@ -29,6 +29,17 @@ Tracker for Encryption by Default for AWS Resources
 | SQS Queue | Simple Queue Service (SQS) | Yes | AWS Owned | 
 | SNS Topic | Simple Notification Service (SNS) | No | - |
 | CloudWatch Log Group | CloudWatch | No | - |
+| Prometheus Workgroup | Prometheus | Yes | AWS Owned |
+| Glue Data Catalog Connection Passwords | Glue | No | - |
+| Glue Data Catalog Metadata | Glue | No | - | 
+| Firehose Stream | Kinesis | No | - |
+| MSK Cluster | Managed Streaming for Apache Kafka (MSK) | Yes | AWS Managed |
+| SageMaker Notebook Instance | SageMaker | Yes | AWS Owned |
+| Comprehend Analysis Job | Comprehend | No | - |
+
+
+
+
 
 
 
