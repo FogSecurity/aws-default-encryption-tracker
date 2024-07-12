@@ -9,11 +9,11 @@ Tracker for Encryption by Default (At Rest) for AWS Resources
 
 ## Total Numbers (As of July 2024)
 
-Encrypted by Default: 35
-Unencrypted by Default: 12
-Default AWS Owned: 18
-Default AWS Managed: 17
-Total Resources: 47
+Encrypted by Default: 35 \
+Unencrypted by Default: 12 \
+Default AWS Owned: 18 \
+Default AWS Managed: 17 \
+Total Resources: 47 \
 
 | AWS Resource  | AWS Service | Encrypted by Default (API/CLI) | Default Encryption Type | 
 | ------------- | ----------- | ------------- | ------------------ |
