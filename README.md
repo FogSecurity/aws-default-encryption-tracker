@@ -8,6 +8,20 @@ Tracker for Encryption by Default for AWS Resources
 | RDS Database Instance | RDS | Yes | AWS Managed |
 | EFS File System | EFS | Yes | AWS Managed |
 | Redshift Cluster | Redshift | No | - |
-
+| Aurora Instance | Aurora | Yes | AWS Managed |
+| Redis Cache | ElastiCache | Yes | AWS Owned |
+| Memcached Cache | ElastiCache | Yes | AWS Owned |
+| Global Datastore (Cluster) | Elasticache | No | - |
+| Keyspaces Table | Keyspaces (Cassandra) | Yes | AWS Owned |
+| MemoryDB Database | MemoryDB for Redis | Yes | AWS Owned |
+| Neptune Instance | Neptune | Yes | AWS Managed |
+| QLDB Ledger | Quantum Ledger Database (QLDB) | Yes | AWS Owned | 
+| LiveAnalytics Database | Timestream | Yes | AWS Managed |
+| Lightsail Managed DB | Lightsail | Yes | AWS Managed |
+| Secret | Secrets Mnaager | Yes | AWS Managed |
+| SecureString Parameter | Systems Manager Parameter Store | Yes | AWS Managed |
+| String Parameter | Systems Manager Parameter Store | No | - |
+| StringList Parameter | Systems Manager Parameter Store | No | - |
+| EBS Volume | Elastic Block Store | No | - |
 
 Contact info@fogsecurity.io for help and feedback.
