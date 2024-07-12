@@ -1,11 +1,12 @@
-# Secure By Default Tracker: Encrypted by Default in AWS
+# Secure By Default: Encrypted by Default in AWS Tracker
 
 Fog Security: https://www.fogsecurity.io/ \
 Accompanying Blog Post: 
 
 Contact info@fogsecurity.io for help and feedback.  Please feel free to submit additions or feedback here as well.
 
-Tracker for Encryption by Default (At Rest) for AWS Resources
+The following is a tracker for Encryption by Default (At Rest) for AWS Resources.  
+
 
 ## Total Numbers (As of July 2024)
 
@@ -67,4 +68,9 @@ Total Resources: 47
 | CodeArtifact Domain | CodeArtifact | Yes | AWS Managed |
 | CodeCommit Repository | CodeCommit | Yes | AWS Managed |
 
+## Methodology
+
+For the resources above, most were created with the (AWS CLI)[https://awscli.amazonaws.com/v2/documentation/api/latest/index.html].  CLI Documentation and (AWS Documentation)[https://docs.aws.amazon.com/] was referenced to validate default encryption, encryption types as well.  
+
 Contact info@fogsecurity.io for help and feedback.
+
