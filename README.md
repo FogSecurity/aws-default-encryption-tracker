@@ -15,6 +15,8 @@ Default AWS Owned: 18 \
 Default AWS Managed: 17 \
 Total Resources: 47 
 
+## AWS Resource Encrypted by Default Table
+
 | AWS Resource  | AWS Service | Encrypted by Default (API/CLI) | Default Encryption Type | 
 | ------------- | ----------- | ------------- | ------------------ |
 | S3 Bucket  | Simple Storage Service (S3) | Yes | AWS Owned | 
