@@ -22,6 +22,15 @@ Tracker for Encryption by Default for AWS Resources
 | SecureString Parameter | Systems Manager Parameter Store | Yes | AWS Managed |
 | String Parameter | Systems Manager Parameter Store | No | - |
 | StringList Parameter | Systems Manager Parameter Store | No | - |
-| EBS Volume | Elastic Block Store | No | - |
+| EBS Volume | Elastic Block Store (EBS) | No | - |
+| Lambda Envrionment Variables | Lambda | Yes | AWS Managed |
+| Location Trackers | Location Service | Yes | AWS Owned |
+| Location Geofence Collection | Location Service | Yes | AWS Owned |
+| SQS Queue | Simple Queue Service (SQS) | Yes | AWS Owned | 
+| SNS Topic | Simple Notification Service (SNS) | No | - |
+| CloudWatch Log Group | CloudWatch | No | - |
+
+
+
 
 Contact info@fogsecurity.io for help and feedback.
