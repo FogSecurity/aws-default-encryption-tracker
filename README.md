@@ -13,7 +13,7 @@ Encrypted by Default: 35 \
 Unencrypted by Default: 12 \
 Default AWS Owned: 18 \
 Default AWS Managed: 17 \
-Total Resources: 47 \
+Total Resources: 47 
 
 | AWS Resource  | AWS Service | Encrypted by Default (API/CLI) | Default Encryption Type | 
 | ------------- | ----------- | ------------- | ------------------ |
