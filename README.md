@@ -1,4 +1,5 @@
-# aws-encryption-tracker
+# Secure By Default Tracker: Encrypted by Default in AWS
+
 Tracker for Encryption by Default (At Rest) for AWS Resources
 
 | AWS Resource  | AWS Service | Encrypted by Default (API/CLI) | Default Encryption Type | 
