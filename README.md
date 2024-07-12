@@ -36,12 +36,19 @@ Tracker for Encryption by Default (At Rest) for AWS Resources
 | MSK Cluster | Managed Streaming for Apache Kafka (MSK) | Yes | AWS Managed |
 | SageMaker Notebook Instance | SageMaker | Yes | AWS Owned |
 | Comprehend Analysis Job | Comprehend | No | - |
-
-
-
-
-
-
-
+| Traces | X-Ray | Yes | AWS Managed | 
+| OpenSearch Domain | OpenSearch | No | - |
+| OpenSearch Collection | OpenSearch | Yes | AWS Owned |
+| ActiveMQ Broker | MQ | Yes | AWS Owned | 
+| RabbitMQ Broker | MQ | Yes | AWS Owned |
+| Kendra Index | Kendra | Yes | AWS Owned | 
+| ECR Repository | ECR | Yes | AWS Owned | 
+| Replication Instance | DMS | Yes | AWS Managed |
+| Kinesis Video Stream | Kinesis Video | Yes | AWS Managed |
+| File System | FSx | Yes | AWS Managed | 
+| AppFlow Flow | AppFlow | Yes | AWS Owned |
+| DAX Cluster | DynamoDB Accelerator (DAX) | Yes | AWS Managed |
+| CodeArtifact Domain | CodeArtifact | Yes | AWS Managed |
+| CodeCommit Repository | CodeCommit | Yes | AWS Managed |
 
 Contact info@fogsecurity.io for help and feedback.
