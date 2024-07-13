@@ -5,7 +5,7 @@ Accompanying Blog Post:
 
 Contact info@fogsecurity.io for help and feedback.  Please feel free to submit additions or feedback here as well.
 
-The following is a tracker for Encryption by Default (At Rest) for AWS Resources.  We researched 47 types of resources across 39 AWS services including compute, database, storage, machine learning, management and governance.  These include EC2, Sagemaker, DynamoDB, S3, Secrets Manager, CloudWatch, RDS, and more.
+The following is a tracker for Encryption by Default (At Rest) for AWS Resources.  We researched 51 types of resources across 43 AWS services including compute, database, storage, AI and machine learning, management and governance.  These include EC2, Sagemaker, DynamoDB, S3, Secrets Manager, CloudWatch, RDS, and more.
 
 Not all AWS Resources are default encrypted at rest.  
 
@@ -20,11 +20,11 @@ More research on cloud encryption management to come.
 
 ## Total Numbers (As of July 2024)
 
-Encrypted by Default: 35 \
+Encrypted by Default: 39 \
 Unencrypted by Default: 12 \
-Default AWS Owned: 18 \
+Default AWS Owned: 22 \
 Default AWS Managed: 17 \
-Total Resources: 47 
+Total Resources: 51
 
 ## AWS Resource Encrypted by Default Table
 
@@ -70,17 +70,25 @@ Total Resources: 47
 | RabbitMQ Broker | MQ | Yes | AWS Owned |
 | Kendra Index | Kendra | Yes | AWS Owned | 
 | ECR Repository | ECR | Yes | AWS Owned | 
-| Replication Instance | DMS | Yes | AWS Managed |
+| Replication Instance | Data Migration Service (DMS) | Yes | AWS Managed |
 | Kinesis Video Stream | Kinesis Video | Yes | AWS Managed |
 | File System | FSx | Yes | AWS Managed | 
 | AppFlow Flow | AppFlow | Yes | AWS Owned |
 | DAX Cluster | DynamoDB Accelerator (DAX) | Yes | AWS Managed |
 | CodeArtifact Domain | CodeArtifact | Yes | AWS Managed |
 | CodeCommit Repository | CodeCommit | Yes | AWS Managed |
+| HealthLake DataStore | HealthLake | Yes | AWS Owned |
+| MWAA Environment | Managed WorkFlows for Apache Airflow (MWAA) | Yes | AWS Owned |
+| EMR Serverless Application Managed Logs | EMR Serverless | Yes | AWS Owned |
+| Amazon Q Business Application | Amazon Q | Yes | AWS Owned |
 
 ## Methodology
 
-For the resources above, most were created with the (AWS CLI)[https://awscli.amazonaws.com/v2/documentation/api/latest/index.html].  CLI Documentation and (AWS Documentation)[https://docs.aws.amazon.com/] was referenced to validate default encryption, encryption types as well.  
+To validate the above resources, the following methods and process were used:
+- Many resources were created with the (AWS CLI)[https://awscli.amazonaws.com/v2/documentation/api/latest/index.html].
+- Default encryption and encryption type were validated with the (AWS CLI)[https://awscli.amazonaws.com/v2/documentation/api/latest/index.html] Describe/Get calls.
+- Additional validation of default encryption was performed via the AWS Console.
+- CLI Documentation and (AWS Documentation)[https://docs.aws.amazon.com/] was referenced to validate default encryption and encryption type as well.  
+
 
 Contact info@fogsecurity.io for help and feedback.
-
