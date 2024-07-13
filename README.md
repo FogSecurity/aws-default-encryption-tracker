@@ -5,7 +5,7 @@ Accompanying Blog Post:
 
 Contact info@fogsecurity.io for help and feedback.  Please feel free to submit additions or feedback here as well.
 
-The following is a tracker for Encryption by Default (At Rest) for AWS Resources.  
+The following is a tracker for Encryption by Default (At Rest) for AWS Resources.  We researched 47 types of resources across 39 AWS services including compute, database, storage, machine learning, management and governance.  These include EC2, Sagemaker, DynamoDB, S3, Secrets Manager, CloudWatch, RDS, and more.
 
 
 ## Total Numbers (As of July 2024)
@@ -35,7 +35,7 @@ Total Resources: 47
 | QLDB Ledger | Quantum Ledger Database (QLDB) | Yes | AWS Owned | 
 | LiveAnalytics Database | Timestream | Yes | AWS Managed |
 | Lightsail Managed DB | Lightsail | Yes | AWS Managed |
-| Secret | Secrets Mnaager | Yes | AWS Managed |
+| Secret | Secrets Manager | Yes | AWS Managed |
 | SecureString Parameter | Systems Manager Parameter Store | Yes | AWS Managed |
 | String Parameter | Systems Manager Parameter Store | No | - |
 | StringList Parameter | Systems Manager Parameter Store | No | - |
