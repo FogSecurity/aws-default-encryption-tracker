@@ -10,7 +10,8 @@ The following is a tracker for Encryption by Default (At Rest) for AWS Resources
 Not all AWS Resources are default encrypted at rest.  
 
 - Encryption can offer an additional layer of access control and security.
-- Not all encryption mechanisms in AWS are created equally in KMS.  AWS Managed Keys, AWS Customer Managed Keys, AWS Owned Keys all have different access implications.
+- Not all encryption mechanisms in AWS [are created equally in KMS](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#kms_keys).  AWS Managed Keys, AWS Customer Managed Keys, AWS Owned Keys all have different access implications.
+- AWS Managed Keys are used only for your AWS Account.  AWS Owned Keys are used in multiple AWS Accounts (can be across many customers).
 - Depending on your organization's security and compliance guardrails, certain encryption mechanisms or resources must be encrypted.
 - We recommend checking resources and their encryption status for security and compliance.
 - We also recommend where possible, to encrypt all resources by default.
