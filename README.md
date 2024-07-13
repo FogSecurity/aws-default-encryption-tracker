@@ -7,6 +7,15 @@ Contact info@fogsecurity.io for help and feedback.  Please feel free to submit a
 
 The following is a tracker for Encryption by Default (At Rest) for AWS Resources.  We researched 47 types of resources across 39 AWS services including compute, database, storage, machine learning, management and governance.  These include EC2, Sagemaker, DynamoDB, S3, Secrets Manager, CloudWatch, RDS, and more.
 
+Not all AWS Resources are default encrypted at rest.  
+
+- Encryption can offer an additional layer of access control and security.
+- Not all encryption mechanisms in AWS are created equally in KMS.  AWS Managed Keys, AWS Customer Managed Keys, AWS Owned Keys all have different access implications.
+- Depending on your organization's security and compliance guardrails, certain encryption mechanisms or resources must be encrypted.
+- We recommend checking resources and their encryption status for security and compliance.
+- We also recommend where possible, to encrypt all resources by default.
+
+More research on cloud encryption management to come. 
 
 ## Total Numbers (As of July 2024)
 
