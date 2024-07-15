@@ -20,8 +20,8 @@ More research on cloud encryption management to come.
 
 ## Total Numbers (As of July 2024)
 
-Encrypted by Default: 39 \
-Unencrypted by Default: 12 \
+Encrypted by Default: 39 (76.47%) \
+Unencrypted by Default: 12 (23.53%) \
 Default AWS Owned: 22 \
 Default AWS Managed: 17 \
 AWS Services Covered: 43 \
