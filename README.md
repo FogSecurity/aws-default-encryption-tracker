@@ -24,6 +24,7 @@ Encrypted by Default: 39 \
 Unencrypted by Default: 12 \
 Default AWS Owned: 22 \
 Default AWS Managed: 17 \
+AWS Services Covered: 43 \
 Total Resources: 51
 
 ## AWS Resource Encrypted by Default Table
