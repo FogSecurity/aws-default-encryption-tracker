@@ -87,9 +87,9 @@ Total Resources: 51
 
 To validate the above resources, the following methods and process were used:
 - Many resources were created with the [AWS CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/index.html).
-- Default encryption and encryption type were validated with the [AWS CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/index.html) Describe/Get calls.
-- Additional validation of default encryption was performed via the AWS Console.
-- CLI Documentation and [AWS Documentation](https://docs.aws.amazon.com/) was referenced to validate default encryption and encryption type as well. 
+- Default encryption and encryption type were validated with [AWS CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/index.html) Describe and Get calls.
+- Additional validation of default encryption was performed via AWS console.
+- CLI Documentation and [AWS Documentation](https://docs.aws.amazon.com/) were referenced to validate default encryption and encryption type as well. 
 
 Note: Encryption results may be misleading.  See [our Quantum Ledger Database (QLDB) research here](https://www.fogsecurity.io/blog/encryption-state-of-amazon-qldb) for an example of misleading reporting on encryption status.
 
