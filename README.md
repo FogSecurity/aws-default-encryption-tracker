@@ -91,5 +91,6 @@ To validate the above resources, the following methods and process were used:
 - Additional validation of default encryption was performed via the AWS Console.
 - CLI Documentation and [AWS Documentation](https://docs.aws.amazon.com/) was referenced to validate default encryption and encryption type as well. 
 
+Note: Encryption results may be misleading.  See [our Quantum Ledger Database (QLDB) research here](https://www.fogsecurity.io/blog/encryption-state-of-amazon-qldb) for an example of misleading reporting on encryption status.
 
 Contact info@fogsecurity.io for help and feedback.
