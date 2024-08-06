@@ -31,7 +31,7 @@ Total Resources: 51
 
 | AWS Resource  | AWS Service | Encrypted by Default (API/CLI) | Default Encryption Type | 
 | ------------- | ----------- | ------------- | ------------------ |
-| S3 Bucket  | Simple Storage Service (S3) | Yes | AWS Owned | 
+| S3 Bucket  | Simple Storage Service (S3) | Yes | AWS Owned (S3 Managed) | 
 | DynamoDB Table  | DynamoDB  |	Yes | AWS Owned |
 | RDS Database Instance | RDS | Yes | AWS Managed |
 | EFS File System | EFS | Yes | AWS Managed |
