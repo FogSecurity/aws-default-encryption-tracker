@@ -57,7 +57,7 @@ Total Resources: 51
 | SQS Queue | Simple Queue Service (SQS) | Yes | AWS Owned | 
 | SNS Topic | Simple Notification Service (SNS) | No | - |
 | CloudWatch Log Group | CloudWatch | No | - |
-| Prometheus Workgroup | Prometheus | Yes | AWS Owned |
+| Prometheus Workspace | Prometheus | Yes | AWS Owned |
 | Glue Data Catalog Connection Passwords | Glue | No | - |
 | Glue Data Catalog Metadata | Glue | No | - | 
 | Firehose Stream | Kinesis | No | - |
