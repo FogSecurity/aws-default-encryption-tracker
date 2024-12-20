@@ -27,7 +27,7 @@ Default AWS Managed: 17 \
 AWS Services Covered: 43 \
 Total Resources: 51
 
-## AWS Resource Encrypted by Default Table
+## AWS Resource Encrypted by Default (At Rest) Table
 
 | AWS Resource  | AWS Service | Encrypted by Default (API/CLI) | Default Encryption Type | 
 | ------------- | ----------- | ------------- | ------------------ |
@@ -56,7 +56,7 @@ Total Resources: 51
 | Location Geofence Collection | Location Service | Yes | AWS Owned |
 | SQS Queue | Simple Queue Service (SQS) | Yes | AWS Owned | 
 | SNS Topic | Simple Notification Service (SNS) | No | - |
-| CloudWatch Log Group | CloudWatch | No | - |
+| CloudWatch Log Group | CloudWatch | Yes | AES-GCM |
 | Prometheus Workspace | Prometheus | Yes | AWS Owned |
 | Glue Data Catalog Connection Passwords | Glue | No | - |
 | Glue Data Catalog Metadata | Glue | No | - | 
