@@ -18,11 +18,11 @@ Not all AWS Resources are default encrypted at rest.
 
 More research on cloud encryption management to come. 
 
-## Total Numbers (As of July 2024)
+## Total Numbers (As of December 2024)
 
-Encrypted by Default: 39 (76.47%) \
-Unencrypted by Default: 12 (23.53%) \
-Default AWS Owned: 22 \
+Encrypted by Default: 40 (78.43%) \
+Unencrypted by Default: 11 (21.57%) \
+Default AWS Owned: 23 (Includes AES-GCM for CloudWatch Logs) \
 Default AWS Managed: 17 \
 AWS Services Covered: 43 \
 Total Resources: 51
@@ -82,6 +82,8 @@ Total Resources: 51
 | MWAA Environment | Managed WorkFlows for Apache Airflow (MWAA) | Yes | AWS Owned |
 | EMR Serverless Application Managed Logs | EMR Serverless | Yes | AWS Owned |
 | Amazon Q Business Application | Amazon Q | Yes | AWS Owned |
+
+* [CloudWatch Logs Documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html) states CW Logs by default use server-side AES-GCM.  We assume this functions similarly to AWS Owned encryption.
 
 ## Methodology
 
